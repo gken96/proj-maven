@@ -48,7 +48,7 @@ public class App extends Transaction {
 	void displaybalance(int number) {
 		System.out.println(balance[number]);
 	}
-	public AtmCaseStudy() throws FileNotFoundException {
+	public App() throws FileNotFoundException {
 	} 
 	void register() {
 		System.out.println("Enter details : name,card,pin,accno");
@@ -76,7 +76,7 @@ public class App extends Transaction {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		
-		AtmCaseStudy o = new AtmCaseStudy();
+		App o = new App();
 		
 		while (true) {
 			int ch1,ch2;
