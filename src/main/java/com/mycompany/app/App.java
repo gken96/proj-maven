@@ -17,7 +17,7 @@ abstract class Transaction{
 	
 }
 
-public class AtmCaseStudy extends Transaction {
+public class App extends Transaction {
 	FileOutputStream fout= new FileOutputStream("Atm.txt");
 	BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(fout));
 	Scanner i= new Scanner(System.in);
